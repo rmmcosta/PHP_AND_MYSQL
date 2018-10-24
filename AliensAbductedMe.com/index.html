@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Aliens Abducted Me - Report an Abduction</title>
+    </head>
+    <body>
+        <form action="report.php" method="post" enctype="multipart/form-data">
+            <h1>Aliens Abducted Me - Report an Abduction</h1>
+            <p>Share your story of Alien Abduction:</p>
+
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstname" id="firstName">
+            <br>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastname" id="lastName">
+            <br>
+            <label for="email">What is your email address?</label>
+            <input type="text" name="email" id="email">
+            <br>
+            <label>Have you seen my dog Fang?</label>
+            <label for="yesFang">Yes</label>
+            <input type="radio" name="fang" id="yesFang" value="yes">
+            <label for="noFang">No</label>
+            <input type="radio" name="fang" id="noFang" value="no">
+            <br>
+            <input type="submit" value="Report Abduction">
+        </form>
+    </body>
+</html>
